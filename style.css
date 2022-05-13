@@ -197,8 +197,8 @@ list-style: none;
         justify-content: space-between;
     }
     div.main-photos div.box{
-        width: 25rem;
-        margin: 2rem auto;
+        width: 23rem;
+        margin: 1rem auto;
     }
     article{
         text-align:start;
