@@ -195,10 +195,10 @@ list-style: none;
     div.main-photos{
         flex-direction: column;
         justify-content: space-between;
-        width: 80%;
+        width: 95%;
     }
     div.main-photos div.box{
-        width: 80%;
+        width: 95%;
         margin: 1rem auto;
 
     }
