@@ -363,10 +363,10 @@ hr{
     justify-content: center;
     align-items: center;
     flex-flow: column;
+    flex-wrap: wrap;
     border: .25px solid var(--btnblack);
     background:var(--light);
     color: var(--black);
-    margin: 1rem;
     box-shadow: var(--box-shadow);
     width: 30%;
 }
