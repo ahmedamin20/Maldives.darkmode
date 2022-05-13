@@ -195,10 +195,16 @@ list-style: none;
     div.main-photos{
         flex-direction: column;
         justify-content: space-between;
+        width: 80%;
     }
     div.main-photos div.box{
-        width: 23rem;
+        width: 80%;
         margin: 1rem auto;
+
+    }
+    div.main-photos div.box img.box-photo{
+        width: 94%;
+
     }
     article{
         text-align:start;
@@ -342,7 +348,7 @@ hr{
     text-transform: uppercase;
     color: var(--black);
     font-family:'Poppins',sans-serif;
-    margin-top: 60px;
+    margin-top: 10%;
     font-weight: 800;
     font-size: 40px;
     cursor:default;
@@ -373,8 +379,7 @@ hr{
 img.box-photo{
     display: block;
     width: 94%;
-    margin: 25px 8px; 
-    border-radius: 10px;
+    margin: 25px auto; 
 }
 a.txt{
     text-decoration: none;
