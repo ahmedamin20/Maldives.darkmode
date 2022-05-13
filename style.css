@@ -204,17 +204,40 @@ list-style: none;
     }
     div.main-photos div.box img.box-photo{
         width: 95%;
-
     }
-    article{
-        text-align:start;
-    }
-    footer div.footer{
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem auto;
         flex-wrap: wrap;
         flex-direction: column;
+        width: 100%;
     }
-    footer div.footer div.art{
+    footer div.footer h5.foot-header{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    div.footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 95%;
         margin: 1rem auto;
+    }
+    div.art{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        flex-direction: column;
+        text-align: revert;
+        width: 45%;
+        background:var(--light);
+        color: var(--black);
+        padding: .5rem;
     }
 }
 .book{
