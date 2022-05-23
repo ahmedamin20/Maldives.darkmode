@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="sec-one">
+    <section class="sec-one"id="sec-one">
     <header>
         <a href="http://127.0.0.1:5500/index.html" class="logo">Summer</a>
         <div class="main-icons">
@@ -31,28 +31,84 @@
             Book now
         </button>
             <div class="dform" id="top-form">
-                <div class="input">
-                    <input type="text" placeholder="Name" required>
-                    <input type="password" placeholder="password" required>
-                    <input type="text" placeholder="Phone"required>
-                </div>
-            <button class="in-form-btn" id="">Book</button>
-            <button class="close"  id="close">close</button>
+                    <form action="">
+                        <div class="input">
+                    <input type="text" placeholder="Name" name="first_name" required>
+                    <input type="text" placeholder="Last Name" name="last_name" required>
+                    <input type="email" placeholder="Email" name="Email" required>
+                    <input type="password" placeholder="password" name="password" required>
+                    <input type="text" placeholder="Phone" name="phone" required>
+                    <input type="submit" value="Submit" class="sub-btn">
+                        </div>
+                </form>
+            <button class="close"  id="close">Exit</button>
         </div>
     </section>
     <ul class="navigation">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Package</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#sec-one">Home</a></li>
+        <li><a href="#ourteam">Team</a></li>
+        <li><a href="#hotels">Hotels</a></li>
+        
     </ul>
     <hr>
 </section>
 <section class="sec2">
     <div class="ourteam">
+        <h3>Hotels</h3>
+    </div>
+    <div class="main-photos" id="hotels">
+        <div class="box">
+            <img src="./Media/hotel1.jpg" alt="" class="box-hotelphoto">
+            <span class="pos-htxt">Luxury Hotel</span>
+            <div class="stars">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+            </div>
+            </div>
+        <div class="box">
+            <img src="./Media/hotel2.jpg" alt="" class="box-hotelphoto">
+            <span class="pos-htxt">Luxury Hotel</span>
+            <div class="stars">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+            </div>
+            </div>
+        <div class="box">
+            <img src="./Media/hotel3.jpg" alt="" class="box-hotelphoto">
+            <span class="pos-htxt">Luxury Hotel</span>
+            <div class="stars">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+            </div>
+            </div>
+        <div class="box mar">
+            <img src="./Media/hotel4.jpg" alt="" class="box-hotelphoto">
+            <span class="pos-htxt">Luxury Hotel</span>
+            <div class="stars">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+                <img src="./Media/star.png" alt=""class="starimg">
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sec2">
+    <div class="ourteam">
         <h3 >Our team</h3>
     </div>
-    <div class="main-photos">
+    <div class="main-photos" id="ourteam">
         <div class="box">
             <img src="./Media/Ahmed.jpg" alt="" class="box-photo">
             <hr class="hr-box">
@@ -85,31 +141,25 @@
 <hr class="hr-sec">
 <footer>
     <div class="footer">
-    <div class="about">
-        <h5 class="about-h5">About</h5>
-        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique nobis ipsum,laboriosam maxime expedita </article>
+    <div class="art">
+        <h5 class="foot-header">About</h5>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique ipsum,laboriosam maxime expedita </article>
     </div>
-    <div class="more-info">
-        <h5 class="more-h5">More info</h5>
-        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique nobis ipsum,laboriosam maxime expedita</article>
+    <div class="art">
+        <h5 class="foot-header">More info</h5>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique ipsum,laboriosam maxime expedita</article>
     </div>
 </div>
 <div class="foot-icon">
     <ul class="sci-footer">
         <li>
-            <a href="#">
-                <ion-icon name="logo-facebook"></ion-icon>
-            </a>
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
         </li>
         <li>
-            <a href="#">
-                <ion-icon name="logo-twitter"></ion-icon>
-            </a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
         </li>
         <li>
-            <a href="#">
-                <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
         </li>
     </ul>
 </div>

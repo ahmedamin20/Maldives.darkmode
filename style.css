@@ -341,11 +341,12 @@ input:hover{
     border: 1px solid var(--black);
     cursor: pointer;
     box-shadow: none;
-    top: 23%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
     font-family : 'Poppins',sans-serif;
     transition: all 1s;
+    
 }
 .close:hover{
     background-color: var(--black);
@@ -512,4 +513,50 @@ ul.sci-footer li a ion-icon{
 ul.sci-footer li a ion-icon:hover{
     box-shadow: var(--box-shadow);
     opacity: 1;
+}
+img.box-hotelphoto{
+    display: block;
+    width: 94%;
+    margin: 25px auto; 
+}
+div.main-photos div.mar{
+    margin: 20px auto;
+}
+.pos-htxt{
+    margin-top: 10px;
+    font-weight: 650;
+    margin-bottom: 10px;
+}
+input.sub-btn{
+    padding:.8rem;
+    border-radius:.8rem;
+    background-color:var(--btnlight);
+    color: var(--black);
+    font-weight: 800;
+    border: 1px solid var(--black);
+    cursor: pointer;
+    box-shadow: none;
+    
+    
+    font-family : 'Poppins',sans-serif;
+    transition: all 1s;
+}
+input.sub-btn:hover{
+    background-color: var(--black);
+    color: var(--light);
+    transition: all .8s;
+}
+div.stars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.starimg{
+    width: 15%;
 }
