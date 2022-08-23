@@ -22,3 +22,20 @@ top_Form.classList.toggle('sign-btn')
 close_Btn.addEventListener('click',function(){
 top_Form.classList.remove('sign-btn')
 })
+
+
+let home_btn = document.getElementById("home-btn");
+window.onscroll=function(){
+    if(window.scrollY>=400){
+        home_btn.style.display="block";
+    }else{
+        home_btn.style.display="none"
+    }
+
+}
+home_btn.onclick=function(){
+    window.scrollTo({
+        top:0,
+        behavior:"smooth",
+    })
+}

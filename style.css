@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 *{
 
     margin: 0;
@@ -12,7 +13,7 @@
     --btnlight:rgba(255, 255, 255, 0.753);
     --btnblack:rgba(0, 0, 0, 0.753);
     --bordercol:rgba(0, 0, 0, 0.678);
-    --box-shadow:-8px 5px 15px rgba(0, 0, 0,0.4)
+    --box-shadow:-8px 5px 15px rgba(0, 0, 0,0.4);
 }
 .dark{
     --black:#fff;
@@ -486,20 +487,32 @@ div.art{
     background:var(--light);
     color: var(--black);
     padding: .5rem;
+    text-align: center;
+    
+}
+div.foot-icon{
+    background-color: transparent;
+    border: none;
 }
 ul.sci-footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 }
 li.foot{
     list-style: none;
     margin: 2rem auto;
     transform: translateX(-50%);
     list-style: none;
+    background-color: transparent;
+
 }
 ul.sci-footer li a{
     text-decoration: none;
+    background-color: transparent;
+    border: none;
+
 
 }
 ul.sci-footer li a ion-icon{
@@ -514,6 +527,8 @@ ul.sci-footer li a ion-icon{
 ul.sci-footer li a ion-icon:hover{
     box-shadow: var(--box-shadow);
     opacity: 1;
+    background-color: transparent;
+
 }
 img.box-hotelphoto{
     display: block;
@@ -560,4 +575,20 @@ div.stars{
 }
 img.starimg{
     width: 15%;
+}
+button.home-btn{
+    border-radius:50%;
+    border: none;
+    position: fixed;
+    z-index: 100;
+    left: 95%;
+    top:90%;
+    cursor: pointer;
+    background-color: transparent;
+    display: none;
+}
+i.fa-solid.fa-circle-arrow-up{
+    font-size: 30px;
+    color: var(--black);
+
 }
